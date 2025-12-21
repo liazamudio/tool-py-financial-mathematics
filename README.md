@@ -1,2 +1,4 @@
-# tool-py-financial-mathematics
-Repositorio de notebooks de matemáticas financieras
+# Matemáticas Financieras
+Las matemáticas financieras son la base de todas las valuaciones ya sea para el cálculo correcto del precio de las acciones, de los bonos, de los instrumentos derivados o para tomar decisiones al contratar un crédito o comprar algún artículo a plazos. El conocimiento del valor presente y el valor futuro y el tener la capacidad de trasladar flujo en el tiempo es primordial para la vida de personas que toman decisiones financieras. 
+
+Este curso está dirigido para que todas aquellas personas que toman decisiones financieras (Ya sea de empresas o personales) tengan las bases adecuadas para poder hacerlo, del mismo modo busca incrementar los conocimientos y reafirmarlos para profesionales de la industria. Lo primordial del curso es que está enfocado en casos prácticos, en los cuales se explica el uso en el mundo real de cada uno de los temas vistos. Las bases para tomar el curso son conocimientos de aritmética (Operaciones básicas y despejes) y tener Microsoft Excel para los ejercicios.
