@@ -22,7 +22,9 @@ Requisitos previos: aritmética básica (operaciones y despejes) y, opcionalment
 - Base de datos: No aplica
 - Infraestructura/Deploy: No se detectó configuración de despliegue ni CI/CD (sin `Dockerfile`, `docker-compose.yml`, `.github/workflows/`, etc.). Los notebooks están pensados para ejecutarse localmente con Jupyter.
 
-<!-- COMPLETAR: no existe requirements.txt ni pyproject.toml en el repo. Confirmar versión mínima de Python soportada y fijar versiones de pandas/numpy si se desea reproducibilidad exacta. -->
+Dependencias fijadas en [requirements.txt](requirements.txt): `pandas>=2.3.3`, `numpy>=2.3.5`.
+
+<!-- COMPLETAR: no existe pyproject.toml. Confirmar versión mínima de Python soportada (se verificó con Python 3.13.7). -->
 
 ## Características principales
 
@@ -46,7 +48,7 @@ python -m venv .venv
 # source .venv/bin/activate # macOS/Linux
 
 # 3. Instalar dependencias
-pip install pandas numpy jupyter
+pip install -r requirements.txt jupyter
 
 # 4. Levantar Jupyter y abrir cualquier notebook
 jupyter notebook
